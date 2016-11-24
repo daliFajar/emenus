@@ -1,0 +1,17 @@
+
+// Fonts
+//@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+.login-page {
+    background-color: $body-bg;
+}
+
+.img-logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}

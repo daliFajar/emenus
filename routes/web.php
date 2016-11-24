@@ -12,5 +12,18 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    var_dump(Config::get('app.locale'));
+});
+
+
+
+Route::group(['prefix' => '{locale}'], function () {
+
+    /*
+    * Authentication
+    */
+    Route::group(['prefix' => config('app.auth_code')], function () {
+        Route::get('login', 'Auth\LoginController@getLogin')->name('form.login');
+    });
+
 });

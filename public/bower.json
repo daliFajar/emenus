@@ -1,0 +1,21 @@
+{
+    "name": "E Menus Backend",
+    "authors": [
+        "Dali Fajar <dalifajar@gmail.com>"
+    ],
+    "description": "Using Theme AdminLTE",
+    "main": "",
+    "moduleType": [],
+    "license": "MIT",
+    "homepage": "",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "font-awesome": "fontawesome#^4.5.0"
+    }
+}

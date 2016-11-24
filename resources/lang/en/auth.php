@@ -16,4 +16,11 @@ return [
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
+    'sub_title' => 'Sign in to start your session',
+    'remember_me' => 'Remember Me',
+    'sign_in' => 'Sign In',
+    'sign_in_fb' => 'Sign in using Facebook',
+    'sign_in_gp' => 'Sign in using Google+',
+    'forgot_password' => 'I forgot my password',
+    'register' => 'Register a new membership'
 ];
