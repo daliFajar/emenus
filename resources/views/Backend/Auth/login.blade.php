@@ -33,13 +33,6 @@
                 </div>
             </form>
 
-            <div class="social-auth-links text-center">
-                <p>- @lang('commonwords.or') -</p>
-                <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i>@lang('auth.sign_in_fb')</a>
-                <a href="#" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i>@lang('auth.sign_in_gp')</a>
-            </div>
-            <!-- /.social-auth-links -->
-
             <a href="#">@lang('auth.forgot_password')</a><br>
             <a href="register.html" class="text-center">@lang('auth.register')</a>
         </div>
